@@ -25,7 +25,7 @@
 			"#menus": ["./menus/index.ts"],
 			"#settings": ["./settings/index.ts"],
 			"#tools": ["./tools/index.ts"],
-			"#lang/*": ["../lang/*"]
+			"#emojis": ["../emojis.json"]
 		},
 	},
 	"include": ["src"],

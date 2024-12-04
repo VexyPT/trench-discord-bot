@@ -1,7 +1,7 @@
 import { formatEmoji } from "discord.js";
 import fs from "node:fs/promises";
 
-type EmojiList = typeof import("#emojisfile");
+type EmojiList = typeof import("#emojis");
 
 const filepath = process.env.ENV === "dev" ? "emojis.dev.json" : "emojis.json";
 const file = await fs.readFile(filepath, "utf-8");
